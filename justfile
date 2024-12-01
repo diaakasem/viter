@@ -2,5 +2,5 @@ test:
     v test .
 
 doc:
-    v doc -f md . -o README.md
+    v doc -f md . -o src
     v doc -m -f html .

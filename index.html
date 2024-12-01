@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Itertools for VLang</title>
+    <style>
+        /* Catppuccin Mocha Theme */
+        :root {
+            --bg: #1e1e2e;
+            --bg-alt: #1a1826;
+            --fg: #d9e0ee;
+            --fg-muted: #a6adc8;
+            --accent: #89b4fa;
+            --accent-alt: #f38ba8;
+            --border: #313244;
+        }
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--fg);
+        }
+        header {
+            background-color: var(--bg-alt);
+            border-bottom: 2px solid var(--border);
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: var(--accent);
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.1rem;
+            color: var(--fg-muted);
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .module-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .module-list li {
+            margin: 15px 0;
+        }
+        .module-list a {
+            text-decoration: none;
+            color: var(--accent-alt);
+            font-size: 1.2rem;
+            padding: 10px 15px;
+            display: block;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--bg-alt);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .module-list a:hover {
+            background-color: var(--accent-alt);
+            color: var(--bg);
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            color: var(--fg-muted);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Itertools for VLang</h1>
+        <p>A robust library for iteration tools, built with care for VLang developers.</p>
+    </header>
+    <main>
+        <h2>Module Documentation</h2>
+        <ul class="module-list">
+            <li><a href="./_doc/core.html">Core Module</a></li>
+            <li><a href="./_doc/lazy.html">Lazy Iterators</a></li>
+            <li><a href="./_doc/combinators.html">Combinators</a></li>
+            <li><a href="./_doc/infinite.html">Infinite Iterators</a></li>
+            <li><a href="./_doc/utils.html">Utilities</a></li>
+        </ul>
+    </main>
+    <footer>
+        &copy; 2024 Itertools for VLang. Crafted with <span style="color: var(--accent-alt);">&#10084;</span> by VLang enthusiasts.
+    </footer>
+</body>
+</html>
