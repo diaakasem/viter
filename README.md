@@ -1,6 +1,6 @@
 # Itertools for VLang
 
-	A robust library for advanced iteration tools, bringing the power of functional programming to VLang.
+A robust library for advanced iteration tools, bringing the power of functional programming to VLang.
 
 _Note:_ This project is still in development and may not be ready for production use.
 
